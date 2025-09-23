@@ -1,9 +1,7 @@
-array = [1, 2, 3, 4, 5]
-# list = ["i", '1', '{', 4, 'word']
+from array import array
 
-# for i in range(5):
-#     print(array[i], list[i], sep="")
+list1 = ['i', '1', '{', 4, 'word']
+arr1 = array('h', [-1, 2, 3, 4, 5])
 
-# print(array, "\n",  list, sep='')
-
-# print(array1)
+for i in range(5):
+    print(arr1[i], list1[i], sep="")

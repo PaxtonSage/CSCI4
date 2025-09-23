@@ -1,0 +1,7 @@
+Notes -
+
+9/23/2025
+    I imported the "array" module, then used it to assign a value to the name "arr1"
+    I also made a list using the primitive list
+
+    I then printed the array and list to the console.
