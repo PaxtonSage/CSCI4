@@ -1,7 +1,23 @@
 Notes -
 
-9/23/2025
-    I imported the "array" module, then used it to assign a value to the name "arr1"
-    I also made a list using the primitive list
+    Collection - A bunch organized in some logical or non-logical manner, or nothing.
 
-    I then printed the array and list to the console.
+9/23/2025 
+    On line 1, "from array import array". I told Python to import the item "array" from the module "array"
+        - I needed to do this so that I could actually make an array. Arrays aren't included in Python by default, so you need an external module to have that functionality.
+
+    On line 3, I assigned the value "['i', '1', '{', 4, 'word']" to the name "list1".
+        - In python, this creates a list with the name of "list1," and a value of "['i', '1', '{', 4, 'word']"
+        - This is naturally included in Python, so I didn't need to include any external modules.
+
+    On line 4, I assigned the value "array('h', [-1, 2, 3, 4, 5])" to the name "arr1".
+        - The value "array('h', [-1, 2, 3, 4, 5])" is from the module imported in line 1
+        - Within the array definition, I gave it the type code of 'h'. The 'h' type code is representative of a signed short integer.
+
+    On line 6, I called the "print()" function, to use both the array and list I made.
+        - The first part of my print function is "arr1.tolist()". This takes the value I gave to "arr1" and applies the "tolist()" function to it.
+            - I needed to use this function to actually use the array. You can't naturally use arrays in Python, so you need to turn them into something Python can understand, otherwise it would print meaningless data.
+        - The second part of the function is "\n".
+            - This is just a newline character, and put a line ending between the array and list.
+        - The third part of the function is "list1"
+            - This is just the list I made earlier, and passing it to the print function just lets me print it out.
