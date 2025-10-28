@@ -10,6 +10,5 @@ def fibbonachi(num):
 
 os.system('clear')
 
-
 for i in range(2, 15):
     print(fibbonachi(i))

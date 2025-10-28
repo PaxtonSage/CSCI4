@@ -1,4 +1,4 @@
-import os
+import os                                                        #imports the os module so I can clear the terminal later
 
 def recaman(num):                                                #defines the function "recaman" with one argument called "num"
     list = []                                                    #creates a list with no members
@@ -12,4 +12,4 @@ def recaman(num):                                                #defines the fu
     return list                                                  #finally, it returns list back to wherever recaman(num) was called
 
 os.system('clear')                                               #clears the terminal
-print(recaman(10))                                               #prints the output of recaman(10) 
+print(recaman(100))                                                #prints the output of recaman(10) 
