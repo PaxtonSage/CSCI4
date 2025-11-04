@@ -1,8 +1,5 @@
 import random, time
-
 s = [12, 6, 7, 53, 2]
-
-
 
 def push(s, e):
     s.append(e)
@@ -13,14 +10,12 @@ def pop(s):
     return s
 
 active = True
-epoch = time.time()
 while active:
-    timer = time.time() - epoch
-    if(random.randint(1, 999999) == 1):#if(timer % 2 == 0):
+    if(random.randint(1, 999999) == 1):
         s = push(s, random.randint(1, 99))
         print(s, "push!")
 
-    if(random.randint(1, 999999) == 1):#if(timer % 3 == 0):
+    if(random.randint(1, 999999) == 1):
         s = pop(s)
         print(s, "pop!")
 
