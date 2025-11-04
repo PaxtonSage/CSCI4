@@ -1,4 +1,4 @@
-import random, time
+import random
 s = [12, 6, 7, 53, 2]
 
 def push(s, e):
@@ -9,8 +9,7 @@ def pop(s):
     s.pop()
     return s
 
-active = True
-while active:
+while True:
     if(random.randint(1, 999999) == 1):
         s = push(s, random.randint(1, 99))
         print(s, "push!")
@@ -21,4 +20,4 @@ while active:
 
     if((len(s) > 8) or (len(s) < 3)):
         print("Loop exited because list got too long or short")
-        active = False
+        break

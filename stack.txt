@@ -1,0 +1,20 @@
+In 'stack.py' I wrote the logic for a stack using your example, but I also added a small system for adding and removing elements from the stack. I will explain the push and pop logic line by line, which a few will be skipped for readability, and I'll explain the way I use the logic a bit more condensed.
+
+--- IMPORT & LIST
+- Line 1: we import the library 'random' so we can use pseudo-random integers in our code later
+- Line 2: we define the list we will be using for our stack as 's', and place in some arbitrary numbers [12, 6, 7, 53, 2].
+
+--- PUSH
+- Line 4: We define the function we will use to push elements to the stack as 'push', which takes in two parameters, a list and an element. We know that it takes in a list and an element because that is how those parameters are used later in the function on lines 5 & 6.
+- Line 5: We append the element 'e' to the list 's'. These are the parameters passed into the function previously.
+- Line 6: We return the list back to where 'push' was called.
+
+--- POP
+- Line 8: We define the function used to pop elements off the stack as 'pop', only taking in the parameter 's' which is a list as shown on line 9
+- Line 9: We pop the last item in the list
+- Line 10: we return the list just like in line 6
+
+--- LOOP
+We begin a while loop which will only end under the conditional "if((len(s) > 8) or (len(s) < 3)):" which checks if the list is too long or short.
+
+Within the loop we pop and push numbers off the stack based off a "random-number timer" and print whatever action took place.
