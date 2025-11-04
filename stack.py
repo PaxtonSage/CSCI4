@@ -10,11 +10,11 @@ def pop(s):
     return s
 
 while True:
-    if(random.randint(1, 999999) == 1):
+    if(random.randint(1, 99999) == 1):
         s = push(s, random.randint(1, 99))
         print(s, "push!")
 
-    if(random.randint(1, 999999) == 1):
+    if(random.randint(1, 99999) == 1):
         s = pop(s)
         print(s, "pop!")
 
