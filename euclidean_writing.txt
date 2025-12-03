@@ -1,2 +1,0 @@
-euclidean.py defines a function which takes in two points, and returns the euclidean distance between the two using the pythagorean theorum.
-
