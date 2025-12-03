@@ -1,5 +1,5 @@
-point1 = [0, 0] #define first point [x, y]
-point2 = [-3, -4] #define second point [x, y]
+point1 = [-6, 6] #define first point [x, y]
+point2 = [6, -6] #define second point [x, y]
 
 def distance(p1, p2): #define function 'distance' which takes in two points, p1 and p2
     dx = p1[0] - p2[0] #set the variable 'dx' equal to the horizontal distance between p1 and p2
